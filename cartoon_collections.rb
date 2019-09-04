@@ -7,7 +7,9 @@ end
 
 def summon_captain_plane(array) # code an argument here
   # Your code here
-  array.each 
+  array.collect do |call|
+    call.capitalize + "!"
+  end
 end
 
 def long_planeteer_calls# code an argument here
